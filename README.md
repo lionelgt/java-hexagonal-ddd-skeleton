@@ -30,10 +30,10 @@ As a example I included an API that covers all the layers to show the implementa
  - [Maven 3.9.4](https://maven.apache.org/docs/3.9.4/release-notes.html)
 
 ## 🚀 How to Start
-
-1. Clone this repository: `git clone https://github.com/lionelgt/java-hexagonal-ddd-skeleton`.
+1. Create your repository from this [java-hexagonal-ddd-skeleton](https://github.com/lionelgt/java-hexagonal-ddd-skeleton) repository. [Follow these steps](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). 
+2. Clone your repository: `git clone https://github.com/:your-user/:your-repository-name`. 
 3. Execute this to build jar:  `mvn clean package`
-4. Execute this to build Image: `docker build -t java-hexagonal-ddd-skeleton:0.0.1-SNAPSHOT .`
+4. Execute this to build image: `docker build -t java-hexagonal-ddd-skeleton:0.0.1-SNAPSHOT .`
 5. Execute this to run the container: `docker run -p 8080:8080 java-hexagonal-ddd-skeleton:0.0.1-SNAPSHOT`
 6. In order to check everything is OK : `curl 'localhost:8080/api/git-repository'`
 7. Start developing!
