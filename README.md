@@ -16,6 +16,7 @@
 - [Dependencies](#-dependencies)
 - [How to start](#-how-to-start)
 - [Software architecture diagram](https://github.com/lionelgt/java-hexagonal-ddd-skeleton/blob/main/docs/software-architecture-diagram.md)
+- [Related repositories](#-related-repositories)
 
 ## ℹ️️ Introduction
 
@@ -37,3 +38,9 @@ As a example I included an API that covers all the layers to show the implementa
 5. Execute this to run the container: `docker run -p 8080:8080 java-hexagonal-ddd-skeleton:0.0.1-SNAPSHOT`
 6. In order to check everything is OK : `curl 'localhost:8080/api/git-repository'`
 7. Start developing!
+
+## 💡 Related repositories
+
+### ☕ Java
+
+- [♨ ☕ 🚀 Java *Reactive*, Hexagonal Architecture + DDD: Template repository for your new java *reactive* projects](https://github.com/lionelgt/java-hexagonal-ddd-reactive-skeleton)
